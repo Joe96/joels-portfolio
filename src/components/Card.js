@@ -1,7 +1,10 @@
 import React from 'react';
+import '../Card.css';
 
 const Card = ({ title, content }) => {
+
   return (
+
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
@@ -9,7 +12,9 @@ const Card = ({ title, content }) => {
         <button type="submit" className="btn btn-primary">View Project on Github</button>
       </div>
     </div>
+
   );
+
 };
 
 export default Card;

@@ -2,7 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = () => {
+
   return (
+
     <div className="container">
       <div className="row">
         <div className="col-md-4">
@@ -16,7 +18,9 @@ const CardList = () => {
         </div>
       </div>
     </div>
+
   );
+
 };
 
 export default CardList;

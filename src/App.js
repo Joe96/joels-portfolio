@@ -6,7 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 function App() {
+
   return (
+
     <div className="App">
       <Routes>
         <Route path ="/" element={<Welcome/>}/>
@@ -14,7 +16,9 @@ function App() {
         <Route path ="/contacts" element={<Contacts/>}/>
       </Routes>
     </div>
+
   );
+  
 }
 
 export default App;

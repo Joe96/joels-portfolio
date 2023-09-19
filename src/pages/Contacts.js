@@ -8,30 +8,28 @@ const Welcome = () => {
     return (
 
         <div>
-            <Navigation/>
-
-            <div>
-                <h1>Contact Information</h1>
-            </div>
-
-            <div>
-                <h1>Email Form:</h1>
-                <EmailForm />
-
-            </div>
-
+            <Navigation />
             <div>
                 <div>
-                    <h1>linkedin Button</h1>
+                    <h1>Contact Information</h1>
                 </div>
-                
                 <div>
-                    <h1>Github Button</h1>
-                </div> 
+                    <h1>Email Form:</h1>
+                    <EmailForm />
+                </div>
+                <div>
+                    <div>
+                        <h1>linkedin Button</h1>
+                    </div>
+                    <div>
+                        <h1>Github Button</h1>
+                    </div>
+                </div>
             </div>
-     
         </div>
+
     );
+    
 }
 
 export default Welcome;

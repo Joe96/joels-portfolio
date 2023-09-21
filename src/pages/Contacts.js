@@ -1,7 +1,9 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Navigation from "../components/Navigation";
 import EmailForm from '../components/EmailForm';
-
 
 const Welcome = () => {
 
@@ -9,27 +11,18 @@ const Welcome = () => {
 
         <div>
             <Navigation />
-            <div>
-                <div>
-                    <h1>Contact Information</h1>
-                </div>
-                <div>
-                    <h1>Email Form:</h1>
-                    <EmailForm />
-                </div>
-                <div>
-                    <div>
-                        <h1>linkedin Button</h1>
-                    </div>
-                    <div>
-                        <h1>Github Button</h1>
-                    </div>
-                </div>
-            </div>
+            <Container>
+                <Row className="justify-content-center align-items-center vh-100">
+                    <Col md={6} className="text-center">
+                        <EmailForm />
+                    </Col>
+                </Row>
+            </Container>
         </div>
 
+
     );
-    
+
 }
 
 export default Welcome;
